@@ -3,16 +3,12 @@ Package: Oxford_Binder
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.1
 Authors@R: 
-    person(given = "First",
-           family = "Last",
-           role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: This will describe how to set up a binder
-    ready repository
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
+Description: This will describe how to set up a binder ready repository
 License: What license it uses
 Depends: 
     devtools,
+    holepunch,
     kableExtra,
     knitr,
     readxl,
